@@ -60,5 +60,5 @@ public class Calculator {
 
     }
 
-
+// çarpma bölme ekle
 }

@@ -13,10 +13,14 @@ public class Main {
             case 1:
                 System.out.println("Press 1 for add");
                 System.out.println("Press 2 for subtract");
+                System.out.println("Press 3 for multiply");
+                System.out.println("Press 4 for division");
                 int calculator = in.nextInt();
                 switch (calculator){
                     case 1: Calculator.add(); break;
-                    case 2: Calculator.subtraction(); break;
+                    case 2: Calculator.subtract(); break;
+                    case 3: Calculator.multiply(); break;
+                    case 4: Calculator.division(); break;
                     default:
                         System.out.println("undefined");
                 } break;

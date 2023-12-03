@@ -7,9 +7,9 @@ public class Calculator {
     public static void add() {
         DecimalFormat df = new DecimalFormat("0.00");
         ArrayList<Double> numberList = new ArrayList<>();
-        Boolean loopStop = false;
         Scanner in = new Scanner(System.in);
         System.out.println("write the numbers you want to add and press \"=\" for result ");
+        Boolean loopStop = false;
 
         do {
             if (in.hasNextDouble()) {
@@ -35,10 +35,10 @@ public class Calculator {
     public static void subtract() {
         DecimalFormat df = new DecimalFormat("0.00");
         ArrayList<Double> numberList = new ArrayList<>();
-        Boolean loopStop = false;
         Scanner in = new Scanner(System.in);
         System.out.println("write the number you want to subtract from");
         System.out.println("write the number you want to subtract and press \"=\" for result ");
+        Boolean loopStop = false;
 
         do {
             if (in.hasNextDouble()) {
